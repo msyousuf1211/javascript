@@ -1,0 +1,34 @@
+<!Doctype Html>
+
+<html lan ="en">
+    <head>
+        <title>
+             objects in javascript </title>
+    <script language="javascript" name ="text/javascript">
+        var  tutorial={
+            "topic":"javascript",
+            "trainer":"yousuf",
+            "mode":"online"
+        };
+        document.write("topic :" + tutorial.topic);
+        document.write("<br/> <br/>");
+        document.write("trainer :" + tutorial.trainer);
+        document.write("<br/> <br/>");
+        document.write("mode :" + tutorial.mode);
+        document.write("<br/> <br/>");
+        var txt ="";
+        var x;
+        for (x in tutorial){
+            txt +=tutorial[x]+" ,";
+        }
+        document.write(txt);
+
+
+
+
+    </script>
+
+        
+    </head>
+</html>
+

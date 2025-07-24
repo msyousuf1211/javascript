@@ -1,0 +1,36 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Event JS</title>
+    <script language="javascript" type="text/javascript">
+        
+        function showAlert() {
+            alert("Hello, this is an alert!");
+        }
+
+        function changeText() {
+            document.getElementById("text").innerHTML = "Text has been changed!";
+        }
+
+        function changeColor() {
+            document.getElementById("text").style.color = "red";
+        }
+        </script>
+    </head>
+<body>
+    <h1>Event JS Example</h1>
+    <button onclick="showAlert()">Show Alert</button>
+    <button onclick="changeText()">Change Text</button>
+    <button onclick="changeColor()">Change Color</button>
+
+    <p id="text">This is some text.</p>
+    <p>Click the buttons above to see the events in action.</p>
+    
+</body>
+
+    
+
+</html>
+

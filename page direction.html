@@ -1,0 +1,17 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <title>Page Redirection</title>
+    <script>
+        function redirect() {
+            window.location = "https://www.udemy.com";
+        }
+    </script>
+</head>
+<body onload="setTimeout(redirect, 5000)">
+    <form>
+        <p>Click the button to redirect to the Udemy page</p>
+        <input type="button" value="Click me" onclick="redirect();" />
+    </form>
+</body>
+</html>
